@@ -1,0 +1,38 @@
+{
+    "name": "Alist",
+    "description": "Deploy Alist on Heroku.",
+    "keywords": ["Alist"],
+    "env": {
+        "DB_TYPE": {
+            "description": "数据库 可选sqlite3/mysql",
+            "value": "sqlite3"
+        },
+        "DB_HOST": {
+            "description": "数据库地址",
+            "value": "127.0.0.1"
+        },
+        "DB_PORT": {
+            "description": "数据库端口",
+            "value": "3306"
+        },
+        "DB_USER": {
+            "description": "数据库用户名",
+            "value": "alist"
+        },
+        "DB_PASS": {
+            "description": "数据库密码",
+            "value": "alist"
+        },
+        "DB_NAME": {
+            "description": "数据库名称",
+            "value": "alist"
+        },
+        "DB_TABLE_PREFIX": {
+            "description": "数据库表前缀",
+            "value": "alist_"
+        }
+    },
+    "website": "https://alist.smoe.top",
+    "repository": "https://github.com/akashicoin/Alist-heroku",
+    "stack": "container"
+}
